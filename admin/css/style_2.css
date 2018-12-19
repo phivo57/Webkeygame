@@ -1,0 +1,120 @@
+	body {
+    background: url('../images/bg.jpg') no-repeat fixed center center;
+    background-size: cover;
+    font-family: Montserrat;
+}
+
+.logo {
+    width: 513px;
+    height: 36px;
+    background: url('../images/logo.png') no-repeat;
+    margin: 30px auto;
+}
+
+.login-block {
+    width: 520px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border-top: 5px solid #ff656c;
+    margin: 0 auto;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.login-block input#username {
+    background: #fff url('../images/username.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#username:focus {
+    background: #fff url('../images/username.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password {
+    background: #fff url('../images/password.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password:focus {
+    background: #fff url('../images/password.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+.login-block input#email {
+    background: #fff url('../images/email.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#email:focus {
+    background: #fff url('../images/email.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#raspuns {
+    background: #fff url('../images/raspuns.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#raspuns:focus {
+    background: #fff url('../images/raspuns.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #ff656c;
+}
+
+.login-block button {
+    width: 100%;
+    height: 40px;
+    background: #ff656c;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #e15960;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-block button:hover {
+    background: #ff7b81;
+}
+.alert {
+    padding: 12px 15px;
+    color: #000;
+    position: relative;
+    /*font: 14px/20px Museo300Regular, Helvetica, Arial, sans-serif;*/
+}
+.alert .msg { padding: 0 20px 0 40px;}
+.alert p { margin: 0;}
+
+.info-box {     background: #2fa9f6}
+.success-box {  background: #7EB62E}
+.error-box {    background: #ff7b81}
+.notice-box {   background: #f6ca2f}
+.download-box { background: #a555ca}
