@@ -42,7 +42,21 @@
 					<h3><?php echo $arr['ten_game']?></h3>
 					<p style="font-size:15px"><?php echo $arr['mo_ta_chi_tiet'] ?></p>
 					<input name="ma_game" type="hidden" value="<?php echo $arr['ma_game'] ?>">
-					
+					<?php
+						if(isset($_SESSION['ten_khach_hang']))
+						{
+					?>
+							<input type="number" name="product_qty" min="1" value="1" style="width:30px">
+							<button type="submit" class="add-to-cart">Mua hàng /<?php echo $arr["don_gia_ban"]?>đ</button>
+					<?php
+						}
+						else
+						{
+					?>
+							<h5>Bạn phải <a href="login.php">đăng nhập</a> để mua hàng</h5>
+					<?php
+						}
+					?>
 					
 				</div>
 				
