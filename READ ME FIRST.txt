@@ -1,3 +1,5 @@
 Mọi thứ upload 19/12 là template có sẵn. Upload chức năng, view và truy xuất dữ liệu vào models theo các thư mục đã đặt sẵn.
 Hình ảnh quá dung lượng không cho up thì liên lạc Phi để đưa vào Google Drive.
 Lấy games.sql import vào wamp để truy xuất dữ liệu
+Ai bị lỗi ko hiện template được á, sửa folder "view" thành "views" thì template chạy bình thường.
+Bắt tay làm được r các bạn trẻ.
