@@ -26,7 +26,22 @@ class C_Games
     }
     public function Hien_thi_games_theo_tim_kiem()
     {
-        
+        // Models
+        if(isset($_POST['tim']))
+        {
+            $ten  = $_POST["ten_game"];
+            $g = new game();
+            $game = $g->tim_game_theo_ten_game($ten);
+            //print_r($game);
+            if($game==[])
+            {
+                $_SESSION['error']="Không tìm thấy sản phẩm";
+            }
+            $loaigames = $g->Doc_the_loai_game();
+        }
+        // Views
+        $title="Games";
+        require_once("views/v_games/layouts.php");
     }
     
 }
