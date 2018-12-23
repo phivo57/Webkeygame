@@ -7,7 +7,6 @@
             $sql = "select * from hoa_don";
             $this->setQuery($sql);
             return $this->loadAllRows();
-            
-        
+        }
     }
 ?>
