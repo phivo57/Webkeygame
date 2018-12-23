@@ -18,6 +18,10 @@
 					<?php
 						foreach($loaigames as $loais)
 						{
+							?>
+							<li><a href="games.php?ma_the_loai=<?php echo $loais['ma_the_loai']?>"><?php echo $loais['ten_the_loai']?></a></li>
+							<?php
+						}
 					?>
 					<li><a href="games.php?ma_the_loai=<?php echo $loais['ma_the_loai']?>"><?php echo $loais['ten_the_loai']?></a></li>
 					<?php
