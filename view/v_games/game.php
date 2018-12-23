@@ -26,7 +26,7 @@ if(isset($_SESSION["error"])){
                     {
                 ?>
                 <div class="view view-first">
-                    <img src="<?php echo $game['hinh']?>" />
+                    <img src="<?php echo $games['hinh']?>" />
                     <div class="mask">
                         <h2><?php echo $games['ten_game']?></h2>
                         <p><?php echo $games['mo_ta_tom_tat']?></p>
