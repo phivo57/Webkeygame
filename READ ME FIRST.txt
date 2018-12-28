@@ -3,3 +3,4 @@ Hình ảnh quá dung lượng không cho up thì liên lạc Phi để đưa v�
 Lấy games.sql import vào wamp để truy xuất dữ liệu
 Ai bị lỗi ko hiện template được á, sửa folder "view" thành "views" thì template chạy bình thường.
 Bắt tay làm được r các bạn trẻ.
+///////////////////////////////////////////////
